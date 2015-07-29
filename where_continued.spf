@@ -84,8 +84,8 @@
 			<key>queries</key>
 			<string>SELECT * 
 FROM employees
-WHERE hire_date LIKE '199%'
-AND birth_date LIKE '%-12-25';</string>
+WHERE last_name LIKE '%q%'
+AND last_name NOT LIKE '%qu%';</string>
 			<key>table</key>
 			<string>employees</string>
 			<key>view</key>
@@ -102,6 +102,14 @@ AND birth_date LIKE '%-12-25';</string>
 	<array/>
 	<key>queryHistory</key>
 	<array>
+		<string>SELECT * 
+FROM employees
+WHERE last_name LIKE '%q%'
+AND last_name NOT LIKE '%qu%'</string>
+		<string>SELECT * 
+FROM employees
+WHERE last_name LIKE '%q%'
+AND last_name NOT LIKE '%qu'</string>
 		<string>SELECT * 
 FROM employees
 WHERE hire_date LIKE '199%'
@@ -164,10 +172,6 @@ WHERE last_name LIKE '%e' OR 'e%'</string>
 		<string>SELECT last_name
 FROM employees 
 WHERE last_name LIKE 'e%' OR '%e'</string>
-		<string>(OR '%e')</string>
-		<string>SELECT last_name
-FROM employees 
-WHERE last_name LIKE 'e%' (OR '%e')</string>
 	</array>
 	<key>rdbms_type</key>
 	<string>mysql</string>
