@@ -82,10 +82,10 @@
 			<key>isToolbarVisible</key>
 			<true/>
 			<key>queries</key>
-			<string>SELECT last_name
+			<string>SELECT * 
 FROM employees
-WHERE last_name LIKE 'e%' 
-OR last_name LIKE '%e';</string>
+WHERE hire_date LIKE '199%'
+AND birth_date LIKE '%-12-25';</string>
 			<key>table</key>
 			<string>employees</string>
 			<key>view</key>
@@ -102,6 +102,10 @@ OR last_name LIKE '%e';</string>
 	<array/>
 	<key>queryHistory</key>
 	<array>
+		<string>SELECT * 
+FROM employees
+WHERE hire_date LIKE '199%'
+AND birth_date LIKE '%-12-25'</string>
 		<string>SELECT last_name
 FROM employees
 WHERE last_name LIKE 'e%' 
@@ -164,9 +168,6 @@ WHERE last_name LIKE 'e%' OR '%e'</string>
 		<string>SELECT last_name
 FROM employees 
 WHERE last_name LIKE 'e%' (OR '%e')</string>
-		<string>SELECT last_name, first_name 
-FROM employees 
-WHERE last_name LIKE '%e' OR 'e%'</string>
 	</array>
 	<key>rdbms_type</key>
 	<string>mysql</string>
