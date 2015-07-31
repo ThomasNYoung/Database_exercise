@@ -1,0 +1,41 @@
+db challenges
+
+Here were the additional challenges for SQL join. Remember, PLEASE get these done for homework tonight if you haven’t already finished them. I may allow for half an hour in class in the morning for review and questions on them, but after that I will be asking students to demonstrate their solutions. AND IT COULD BE YOU!
+
+1. The name and title of all employees whose title starts with "Senior"
+    167,963 rows
+
+2. The departmentment and manager name where the manager is female
+    Department Name | Manager Name
+    ----------------+-----------------
+    Development     | Leon DasSarma
+    Finance         | Isamu Legleitner
+    Human Resources | Karsetn Sigstam
+    Research        | Hilary Kambil
+
+3. Current salaries for all current managers
+    Department Name    | Name              | Salary
+    -------------------+-------------------+-------
+    Customer Service   | Yuchang Weedman   |  58745
+    Development        | Leon DasSarma     |  74510
+    Finance            | Isamu Legleitner  |  83457
+    Human Resources    | Karsten Sigstam   |  65400
+    Marketing          | Vishwani Minakawa | 106491
+    Production         | Oscar Ghazalie    |  56654
+    Quality Management | Dung Pesch        |  72876
+    Research           | Hilary Kambil     |  79393
+    Sales              | Hauke Zhang       | 101987
+
+4. Current average salary of each title
+    Title              | Average Salary
+    -------------------+---------------
+    Assistant Engineer | 57317.5736
+    Engineer           | 59602.7378
+    Staff              | 67330.6652
+    Technique Leader   | 67506.5903
+    Senior Engineer    | 70823.4376
+    Manager            | 77723.6667
+    Senior Staff       | 80706.4959
+
+5. Select every employee's fist & last name, department name, and the first and last name of their manager. Sort by department name, employee last name, employee first name. (Table and column aliases are ESSENTIAL for this one)
+    240,124 rows.
